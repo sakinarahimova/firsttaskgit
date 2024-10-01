@@ -10,73 +10,76 @@ main{
 section.one{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap:100px;
+    gap: 6.25rem;
     justify-content: space-between;
     align-items: center;
     padding: 0;
-    margin: 25px 50px;
+    margin:  1.5rem 3.5rem;
 }
 h1{
-    font-size: 55px;
+    font-size: 3.43rem;
     font-weight: bold;
 }
 .left p{
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 .left{
     /* width: 50%; */
-    margin-right: 20px;
+    margin-right: 1.2rem;
 }
 .right{
-    margin-left: 20px;
+    margin-left: 2rem;
 }
 .right img{
     height: 300px;
-    margin-top: 50px;
+    margin-top: 3.2rem;
 }
+
+
+
 section.two{
     width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     padding: 0;
-    margin: 0px 200px 0px 50px;
+    margin: 0 12.5rem 0 3.2rem;
 }
 .two h3{
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 .two p{
-    font-size: 18px;
+    font-size: 1.12rem;
 }
 .two img{
     height: 200px;
 }
+
 @media screen and (max-width: 1400px){
-    
 section.one{
     display: grid;
     grid-template-columns: 3fr 1fr;
     justify-content: space-between;
     align-items: center;
     padding: 0;
-    margin: 15px 60px;
+    margin: 1rem 3rem;
 }
 h1{
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: bold;
 }
 .left p{
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 .left{
-    margin-right: 20px;
+    margin-right: 1rem;
 }
 .right{
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 .right img{
-    height: 150px;
-    margin-top: 65px;
+    height: 9.3rem;
+    margin-top: 4rem;
 }
 section.two{
     width: 50%;
@@ -84,42 +87,42 @@ section.two{
     justify-content: space-between;
     align-items: flex-start;
     padding: 0;
-    margin: 0px 150px 0px 60px;
+    margin: 0 9.3rem 0 3rem;
 }
 .two h3{
-    font-size: 15px;
+    font-size: 0.9rem;
 }
 .two p{
-    font-size: 11px;
+    font-size: 0.7rem;
 }
 .two img{
     display: none !important;
 }
 }
 
-
-@media screen and (max-width: 830px) and (min-width: 375px){
+@media screen and (min-width: 375px) and (max-width: 830px) {
 main{
     margin: 0 auto;
 }      
 section.one{
-    display: block ;
+    display: block;
     padding: 0;
-    margin: 15px 60px 0px;
+    margin: 1rem 1.5rem 0;
 }
 h1{
-    font-size: 26px;
+    font-size: 1.6rem;
     font-weight: bold;
 }
 .left p{
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 .right{
+    /* display: block; */
     text-align: center;
 }
 .right img{
+    margin-top: 1rem;
     height: 160px;
-    margin:  10px 0;
 }
 section.two{
     width: 200px;
@@ -127,13 +130,13 @@ section.two{
     flex-wrap: wrap;
     align-items: flex-start;
     padding: 0;
-    margin: 0px 150px 0px 60px;
+    margin: 0 9rem 0 1.5rem;
 }
 .two h3{
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 .two p{
-    font-size: 10px;
+    font-size: 0.6rem;
 }
 .two img{
     display: none !important;
